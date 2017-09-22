@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-content {
+    margin: 70px 0;
+}
+
+.info-card {
+    padding: 0 5px;
+}
+
+.card-container {
+    margin-top: 30px
+}
+
+.avatar-img {
+    width: 160px;
+    border-radius: 50%;
+}
+
+.follower-avatar-img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.repository-item {
+    margin: 10px 0;
+}
+
+.red {
+    color: red;
+    font-weight: 500;
+}
