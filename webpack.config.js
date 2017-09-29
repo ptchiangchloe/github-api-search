@@ -10,7 +10,7 @@ let config = {
     target: 'web',
     output: {
         path: DIST_DIR,
-        filename: "bundle.js",
+        filename: "./bundle.js",
     },
     // devtool: 'inline-source-map',
     devtool: 'cheap-module-source-map',

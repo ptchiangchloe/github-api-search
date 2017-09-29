@@ -18,8 +18,12 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-flexbox-grid": "^1.1.5",
+    "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0",
     "rest": "^2.0.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2"
@@ -42,7 +46,7 @@
   "scripts": {
     "start": "npm run build",
     "jest": "jest",
-    "build": "webpack -d && cp src/index.html index.html && webpack-dev-server --content-base src/ --inline --hot",
+    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
     "build:prod": "webpack -p && cp src/index.html index.html",
     "lint": "esw webpack.config.* src tools --color",
     "lint:watch": "npm run lint -- --watch",
